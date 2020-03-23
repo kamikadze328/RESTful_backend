@@ -1,0 +1,61 @@
+2020-03-23 16:38:23.306  INFO 9816 --- [main] c.k.testforcv.test2.Test2Application     : Starting Test2Application on LAPTOP-F2VLHKQH with PID 9816 (C:\Users\Banana\Desktop\test2\target\classes started by Банан in C:\Users\Banana\Desktop\test2)
+2020-03-23 16:38:23.310  INFO 9816 --- [main] c.k.testforcv.test2.Test2Application     : No active profile set, falling back to default profiles: default
+2020-03-23 16:38:24.073  INFO 9816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-23 16:38:24.124  INFO 9816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 4 JPA repository interfaces.
+2020-03-23 16:38:24.402  INFO 9816 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 16:38:24.404  INFO 9816 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 16:38:24.406  INFO 9816 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@dffa30b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 16:38:24.407  INFO 9816 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 16:38:24.409  INFO 9816 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 16:38:24.659  INFO 9816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-03-23 16:38:24.666  INFO 9816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-23 16:38:24.666  INFO 9816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-23 16:38:24.774  INFO 9816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-23 16:38:24.775 DEBUG 9816 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-03-23 16:38:24.775  INFO 9816 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1409 ms
+2020-03-23 16:38:24.859 DEBUG 9816 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, logFilter urls=[/*] order=2147483647
+2020-03-23 16:38:24.859 DEBUG 9816 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2020-03-23 16:38:24.872 DEBUG 9816 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2020-03-23 16:38:24.986  INFO 9816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-23 16:38:25.034  INFO 9816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-23 16:38:25.171  INFO 9816 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-23 16:38:25.239  INFO 9816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-23 16:38:25.337  INFO 9816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-23 16:38:25.348  INFO 9816 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2020-03-23 16:38:26.132  INFO 9816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-23 16:38:26.137  INFO 9816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-23 16:38:26.200  WARN 9816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-23 16:38:26.887  INFO 9816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-23 16:38:26.905 DEBUG 9816 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-03-23 16:38:26.945 DEBUG 9816 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2020-03-23 16:38:26.989 DEBUG 9816 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-03-23 16:38:27.001 DEBUG 9816 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-03-23 16:38:27.458  INFO 9816 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37806be6, org.springframework.security.web.context.SecurityContextPersistenceFilter@36c783ca, org.springframework.security.web.header.HeaderWriterFilter@35e689a0, org.springframework.security.web.authentication.logout.LogoutFilter@17003497, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5fbae40, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@273293c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21a9f95b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bce9ce4, org.springframework.security.web.session.SessionManagementFilter@69a90b81, org.springframework.security.web.access.ExceptionTranslationFilter@7db162f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37d3aa8c]
+2020-03-23 16:38:27.493  INFO 9816 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1dfbbb56-6343-46ac-be26-dca1b2e03ffc
+
+2020-03-23 16:38:27.524  INFO 9816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-23 16:38:27.526  INFO 9816 --- [main] c.k.testforcv.test2.Test2Application     : Started Test2Application in 4.559 seconds (JVM running for 5.35)
+2020-03-23 16:38:34.203  INFO 9816 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-23 16:38:34.203  INFO 9816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-23 16:38:34.204 DEBUG 9816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-03-23 16:38:34.218 DEBUG 9816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-03-23 16:38:34.219  INFO 9816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2020-03-23 16:38:34.232 DEBUG 9816 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/subjects]
+2020-03-23 16:38:34.233 DEBUG 9816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/subjects", parameters={}
+2020-03-23 16:38:34.364 DEBUG 9816 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/hal+json', given [*/*] and supported [application/hal+json]
+2020-03-23 16:38:34.524 DEBUG 9816 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Resources { content: [org.springframework.hateoas.server.core.EmbeddedWrappers$EmptyCollectionEmbedd (truncated)...]
+2020-03-23 16:38:34.559 DEBUG 9816 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-03-23 16:38:34.560 DEBUG 9816 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /api/subjects]
+2020-03-23 16:38:51.722 DEBUG 9816 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/subjects]
+2020-03-23 16:38:51.723 DEBUG 9816 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/subjects", parameters={}
+2020-03-23 16:38:51.728 DEBUG 9816 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/hal+json', given [*/*] and supported [application/hal+json]
+2020-03-23 16:38:51.728 DEBUG 9816 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Resources { content: [org.springframework.hateoas.server.core.EmbeddedWrappers$EmptyCollectionEmbedd (truncated)...]
+2020-03-23 16:38:51.734 DEBUG 9816 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-03-23 16:38:51.734 DEBUG 9816 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : GET /api/subjects]
+2020-03-23 16:39:01.850 DEBUG 9816 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/error", parameters={}
+2020-03-23 16:39:01.851 DEBUG 9816 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-03-23 16:39:01.853 DEBUG 9816 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-03-23 16:39:01.853 DEBUG 9816 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Mon Mar 23 16:39:01 MSK 2020, status=401, error=Unauthorized, message=Unauthorized, path= (truncated)...]
+2020-03-23 16:39:01.859 DEBUG 9816 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 401
